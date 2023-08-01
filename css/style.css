@@ -1,0 +1,529 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --main-color-:rgb(14, 14, 52);
+    --main-background-color-:#26bba4;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    width: 100%;
+    height: 910px;
+}
+ul li {
+    list-style: none;
+}
+/* Start Header */
+.container header .bg-header > img {
+    width: 100%;
+}
+.container header .heading {
+    width: fit-content;
+    height: 300px;
+    position: absolute;
+    left: 45%;
+    top: 130px;
+}
+.container header .heading .logo > img {
+
+}
+header .heading h2 {
+    position: relative;
+    left: -160px;
+    font-size: 30px;
+    top: 20px;
+    color:var(--main-color-);
+}
+.container header .heading p {
+    position: relative;
+    left: -170px;
+    text-align: center;
+    color: #888;
+    font-size: 15px;
+    top: 5px;
+    font-weight: normal;
+}
+.container header .heading button {
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0px 4px 5px -2px gray;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    left: -110px;
+    top: 30px;
+}
+.container header .heading .ios:hover {
+    position: relative;
+    top: 30px;
+    box-shadow: 0px 2px 15px 8px #26bba4;
+    color: black;
+}
+.container header .heading .ios:focus {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.container header .heading .mac:hover {
+    position: relative;
+    top: 30px;
+    box-shadow: 0px 2px 15px 8px rgb(63, 81, 181);
+    color: black;
+}
+.container header .heading .mac:focus {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.container header .heading .ios {
+    background-color: #26bba4;
+}
+.container header .heading .mac {
+    background-color: rgb(63, 81, 181);
+}
+/* End Header */
+/* Start Snippets */
+.container .snippets {
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    background-color: #f3f3f3;
+    margin-top: 300px;
+}
+.container .snippets h2 {
+    color: var(--main-color-);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin: 0px;
+    position: relative;
+    top: -45px;
+}
+.container .snippets p {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+}
+.container .snippets .image-computer img {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.container .snippets .content-snippets {
+    position: absolute;
+    right: 220px;
+    top: 130%;
+    margin-top: 40px;
+}
+.container .snippets .content-snippets h3 {
+    font-size: 23px;
+    color: var(--main-color-);
+    margin-bottom: 50px;
+}
+.container .snippets .content-snippets p {
+    font-size: 16px;
+    color: #888;
+    text-align: start;
+}
+/* End Snippets */
+/* Start Clibpoard */
+.container .clibpoard {
+    width: 100%;
+    height: 600px;
+    background-color: transparent;
+}
+.container .clibpoard .content {
+position: absolute;
+left: 300px;
+}
+.container .clibpoard .content h2 {
+    color: var(--main-color-);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin: 0px;
+    position: relative;
+    top: 60px;
+}
+.container .clibpoard .content p {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+}
+.container .clibpoard .content .tablet img {
+    margin-top: 130px;
+    margin-left: -50px;
+    width: 800px;
+    height: 500px;
+}
+/* End Clibpoard */
+/* Start WorkFlow */
+.container .work-flow {
+    
+}
+.container .work-flow .body > h2 {
+    position: relative;
+    top: 180px;
+    color: var(--main-color-);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+.container .work-flow .body > p {
+    text-align: center;
+    position: relative;
+    top: 170px;
+    font-size: 18px;
+    color: #888;
+    font-weight: normal;
+}
+.container .work-flow .body .icons {
+    display: flex;
+    position: relative;
+    top: 250px;
+    justify-content: space-around;
+    margin: 60px;
+}
+.container .work-flow .body .icons h3 {
+    font-size: 21px;
+    color: var(--main-color-);
+    text-align: center;
+}
+.container .work-flow .body .icons p {
+    font-size: 16px;
+    color: #888;
+    margin-top: -15px;
+    text-align: center;
+}
+.container .work-flow .body .icons img {
+    position: relative;
+    left: 140px;
+}
+.container .work-flow .logos {
+    display: flex;
+    position: relative;
+    top: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin: 100px;
+}
+/* End WorkFlow */
+/* Start About */
+footer {
+    width: 100%;
+    height: 330px;
+    background-color: rgb(29 21 71);
+    position: relative;
+    top: 250px;
+    z-index: -1;
+}
+ footer .about .head h2 {
+    position: relative;
+    color: rgb(179 179 189);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -1px;
+    top: 10px;
+}
+ footer .about .head p {
+    font-size: 18px;
+    color: #888;
+    margin-top: -10px;
+    text-align: center;
+}
+ footer .about .head button {
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 35px;
+    border: none;
+    box-shadow: 0px 4px 5px -2px gray;
+    color: white;
+    transition: 0.3s;
+    position: relative;
+    left: 36%;
+    top: 30px;
+    background-color: #26bba4;
+    cursor: pointer;
+}
+ footer .about .head .button .ios {
+    background-color: #26bba4;
+}
+footer .about .head .ios:hover {
+    box-shadow: 0px 2px 15px 8px #26bba4;
+    color: black;
+}
+footer .about .head .ios:focus {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+ footer .about .head .button .mac {
+    background-color:rgb(63, 81, 181);
+}
+ footer .about .head .button .mac:hover {
+    box-shadow: 0px 2px 15px 8px rgb(63, 81, 181);
+    color: black;
+}
+ footer .about .head .button .mac:focus {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+footer .contact {
+    width: 100%;
+    height: 80px;
+    background-color: #EEE;
+    position: absolute;
+    bottom: 0;
+}
+footer .contact .logo-left > img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+footer .contact .center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 150px;
+    position: relative;
+    top: -40px;
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 0px;
+    cursor: pointer;
+}
+footer .right .iconss {
+    display: flex;
+    position: absolute;
+    right: 50px;
+    gap: 15px;
+    top: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* End About */
+/* Start Media */
+@media (max-width:700px) {
+     .container header .bg-header img {
+        background-image: url(../images/bg-header-mobile.png);
+        width: 180%;
+     }
+}
+@media (max-width:700px) {
+    body {
+        height: fit-content;
+    }
+    .container header .heading .logo > img {
+    margin-left: 50px;
+    }
+    .container header .heading {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .container header .heading h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 85px;
+    }
+    .container header .heading p {
+    text-align: center;
+    width: 100%;
+    margin-left: 95px;
+    position: relative;
+    top: 10px;
+    }
+    .container header .heading button {
+    padding: 8px;
+    width: 150px;
+    font-size: 16px;
+    margin-left: 20px;
+    }
+    .container header .heading .button {
+    position: relative;
+    left: 45px;
+    }
+    .container header .heading .button .mac {
+        margin-left: 0px;
+    }
+    .container .snippets h2 {
+        font-size: 22px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    width: 100%;
+    margin-left: 80px;
+    }
+    .container .snippets {
+    margin-top: 105%;
+    height: 700px;
+    margin-left: 17px;
+    padding: 320px;
+    }
+    .container .snippets h2 {
+    text-align: center;
+    margin-left: -180px;
+    position: absolute;
+    top: 68%;
+    font-size: 22px;
+    width: 100%;
+    }
+    .container .snippets p {
+    font-size: 16px;
+    position: absolute;
+    top: 72%;
+    width: 100%;
+    left: 165px;
+    }
+    
+    .container .snippets .content-snippets {
+    position: absolute;
+    right: -70%;
+    top: 88%;
+    width: 100%;
+    }
+    .container .snippets .content-snippets h3 {
+    font-size: 18px;
+    margin-left: 80px;
+    }
+    .container .snippets .content-snippets p {
+    font-size: 15px;
+    width: 70%;
+    position: relative;
+    left: 80px;
+    margin-top: -30px;
+    }
+    .container .clibpoard {
+        margin-left: 50px;
+    }
+    .container .snippets .image-computer img {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: -20px;
+    top: 710px;
+    }
+    .container .clibpoard .content h2 {
+    width: 300%;
+    font-size: 18px;
+    text-align: start;
+    margin-left: -50px;
+    }
+    .container .clibpoard .content p {
+    width: 780%;
+    text-align: center;
+    margin-left: -240px;
+    font-size: 16px;
+    margin-top: 40px;
+    }
+    .container .clibpoard .content .tablet img {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: -100px;
+    }
+    .container .work-flow .body > h2 {
+    font-size: 21px;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: -40px;
+    }
+    .container .work-flow .body > p {
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: -50px;
+    }
+    .container .work-flow .body .icons {
+    display: block;
+    position: relative;
+    top: 200px;
+    margin: -210px;
+    margin-left: 310px;
+    left: -150px;
+    width: 100%;
+}
+    .container .work-flow .icons img {
+        margin-left: 30px;
+}
+    .container .work-flow .body .icons h3 {
+    font-size: 18px;
+}
+.container .work-flow .logos {
+    position: relative;
+    top: 370px;
+    display: grid;
+    margin-left: 165px;
+    width: 100%;
+    gap: 50px;
+}
+.container .work-flow .logos > img {
+        width: 200px;
+    height: 60px;
+}
+footer {
+    width: 180%;
+    position: relative;
+    top: 400px;
+    left: 0;
+}
+ footer .about .head h2 {
+    font-size: 22px;
+    position: relative;
+    letter-spacing: 1px;
+ }
+ footer .about .head p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+ }
+ footer .about .head button {
+    width: 150px;
+    font-size: 15px;
+ }
+ footer .about .head .button {
+    position: relative;
+    left: -55px;
+ }
+ footer .contact .logo-left img {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+ }
+ footer .contact .center {
+    position: relative;
+    left: -50px;
+    top: -30px;
+ }
+ footer .contact .iconss {
+    position: absolute;
+    top: 45px;
+    right: 115px;
+ }
+ footer .contact .iconss img {
+    width: 20px;
+    height: 20px;
+ }
+}
+/* End Media */
+
